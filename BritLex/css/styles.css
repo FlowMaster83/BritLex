@@ -1,22 +1,122 @@
 :root {
-
+    
 }
 
 body {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Логотип */
+.logo {
     font-family: 'Poppins', sans-serif;
-    background-color: #ffffff;
-    }
-
-/* Logo */
-
-.logo-brit {
+    font-style: normal;
+    font-weight: 400;
     font-size: 36px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.logo-lex {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 1.5;
     display: flex;
     align-items: center;
+    color: #939393;
+}
+
+/* Навігація */
+.header-nav {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #263238;
+    list-style: none;
+    font-style: normal;
+}
+
+/* Кнопка Let`s Talk */
+.modal-button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: #000000;
-    text-decoration: none;
+    font-style: normal;
+    list-style: none;
+}
+
+/* Caption */
+.main-caption h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.25;
+    font-style: normal;
+    color: #000000;
+}
+
+.main-caption p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    font-style: normal;
+    color: #8F95A5;
+}
+
+.main-caption button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    color: #FFFFFF;
+    background-color: #263238;
+}
+
+/* Skills */
+.section-skills h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    font-style: normal;
+    color: #000000;
+}
+
+.section-skills h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.5;
+    font-style: normal;
+    color: #000000;
+    list-style: none;
+}
+
+.section-skills p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: normal;
+    color: #8F95A5;
 }
