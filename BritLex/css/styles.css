@@ -1,9 +1,13 @@
 :root {
-    
+    --sections-color: #000000;
+    --background-buttons-color: #263238;
+    --descriptions-color: #8F95A5;
+    --price-period-color: #EEEEEE;
 }
 
 body {
-    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.03em;
 }
 
 li {
@@ -14,20 +18,22 @@ a {
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 /* Логотип */
 .logo {
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 54px;
     display: flex;
     align-items: center;
-    color: #000000;
+    color: var(--sections-color);
 }
 
-.logo-lex {
-    font-family: 'Poppins', sans-serif;
+span {
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -39,49 +45,43 @@ a {
 
 /* Навігація */
 .header-nav {
-    font-family: 'Poppins', sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 30px;
     color: #263238;
-    list-style: none;
-    font-style: normal;
 }
 
 /* Кнопка Let`s Talk */
 .modal-button {
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 1.5;
     text-align: center;
-    letter-spacing: 0.03em;
-    color: #000000;
+    color: var(--sections-color);
     font-style: normal;
     list-style: none;
+    background-color: #E5E5E5;
 }
 
 /* Caption */
-.main-caption h1 {
-    font-family: 'Poppins', sans-serif;
+.main-caption {
     font-weight: 600;
     font-size: 64px;
     line-height: 1.25;
     font-style: normal;
-    color: #000000;
+    color: var(--sections-color);
 }
 
-.main-caption p {
-    font-family: 'Poppins', sans-serif;
+.main-caption-description {
     font-weight: 400;
     font-size: 24px;
     line-height: 1.5;
     font-style: normal;
-    color: #8F95A5;
+    color: var(--descriptions-color);
 }
 
-.main-caption button {
-    font-family: 'Poppins', sans-serif;
+.get-started-button {
     font-weight: 400;
     font-size: 36px;
     line-height: 1.5;
@@ -89,34 +89,152 @@ a {
     letter-spacing: 0.03em;
     font-style: normal;
     color: #FFFFFF;
-    background-color: #263238;
+    background-color: var(--background-buttons-color);
 }
 
 /* Skills */
-.section-skills h2 {
-    font-family: 'Poppins', sans-serif;
+.skills-caption {
     font-weight: 600;
     font-size: 48px;
     line-height: 1.5;
     font-style: normal;
-    color: #000000;
+    color: var(--sections-color);
 }
 
-.section-skills h3 {
-    font-family: 'Poppins', sans-serif;
+.skills-marker {
     font-weight: 600;
     font-size: 30px;
     line-height: 1.5;
     font-style: normal;
-    color: #000000;
+    color: var(--sections-color);
     list-style: none;
 }
 
-.section-skills p {
-    font-family: 'Poppins', sans-serif;
+.skills-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     font-style: normal;
-    color: #8F95A5;
+    color: var(--descriptions-color);
+}
+
+.learn-more-button {
+    color: #ffffff;
+    background-color: var(--background-buttons-color);
+}
+
+/* About us */
+.section-about-us {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    color: var(--sections-color);
+}
+
+.about-us-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.8;
+    color: var(--descriptions-color);
+}
+
+.about-us-markers {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    color: #2A3246;
+}
+
+.markers-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--descriptions-color);
+}
+
+/* Pricing */
+.section-pricing {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    color: var(--sections-color);
+}
+
+.pricing-markers {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.6;
+    text-transform: capitalize;
+    color: var(--background-buttons-color);
+}
+
+.pricing-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--descriptions-color);
+}
+
+.price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--background-buttons-color);
+    background-color: var(--price-period-color);
+}
+
+.per-month {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: #546269;
+    background-color: var(--price-period-color);
+}
+
+.contact-us {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    color: var(--sections-color);
+}
+
+.contact-us-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--descriptions-color);
+}
+
+.subscribe-button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: var(--background-buttons-color);
+}
+
+.footer-links {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: var(--descriptions-color);
 }
