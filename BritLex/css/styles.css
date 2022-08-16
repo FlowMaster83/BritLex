@@ -1,0 +1,22 @@
+:root {
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    }
+
+/* Logo */
+
+.logo-brit {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+}
