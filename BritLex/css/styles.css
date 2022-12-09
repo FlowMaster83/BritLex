@@ -3,6 +3,7 @@
     --background-buttons-color: #263238;
     --descriptions-color: #8F95A5;
     --price-period-color: #EEEEEE;
+    --main-font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -21,6 +22,7 @@ a {
 button {
     cursor: pointer;
 }
+
 
 /* Логотип */
 .logo {
@@ -43,8 +45,25 @@ span {
     color: #939393;
 }
 
+.section {
+    width: 100%;
+}
+
 /* Навігація */
-.header-nav {
+.header_elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation_div {
+    display: flex;
+}
+
+.header-list {
+    padding-left: 236px;
+    display: flex;
+    gap: 50px;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -62,6 +81,19 @@ span {
     font-style: normal;
     list-style: none;
     background-color: #E5E5E5;
+    border: 2px solid #263238;
+    border-radius: 10px;
+    width: 312px;
+    height: 70px;
+    margin-right: 131px;
+}
+
+.modal_button__text {
+    font-family: var(--main-font-family);
+    color: var(--sections-color);
+    width: auto;
+    margin: 0;
+    justify-content: center;
 }
 
 /* Caption */
